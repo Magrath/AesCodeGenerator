@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2E4C5D0EC6F7C9008625D8 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA2E4C5C0EC6F7C9008625D8 /* utils.cpp */; };
+		DA2E4CC80EC6F8D4008625D8 /* input-ctr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA2E4CC70EC6F8D4008625D8 /* input-ctr.cpp */; };
+		DA71F2E00EC85C2600900DD3 /* core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA71F2DF0EC85C2600900DD3 /* core.cpp */; };
+		DA9E934A0EB0FD1000A84DB3 /* aes256.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9E93470EB0FD1000A84DB3 /* aes256.c */; };
+		DACD14DF0EC8A73A003DD22A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA2E4C330EC6F33D008625D8 /* main.cpp */; };
+		DAE4D8650EE2CBAC003516DB /* input-ecb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAE4D8640EE2CBAC003516DB /* input-ecb.cpp */; };
+		DAE4D86C0EE2CC49003516DB /* input-ecb.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE4D8640EE2CBAC003516DB /* input-ecb.cpp */; };
+		DAE4D8FC0EE2D09C003516DB /* Quad.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAB259F80ED18CDF008E4A63 /* Quad.h */; };
+		DAE4D8FD0EE2D09C003516DB /* aes256.c in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9E93470EB0FD1000A84DB3 /* aes256.c */; };
+		DAE4D8FE0EE2D09C003516DB /* aes256.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9E93490EB0FD1000A84DB3 /* aes256.h */; };
+		DAE4D8FF0EE2D09C003516DB /* aes.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* aes.cpp */; };
+		DAE4D9000EE2D09C003516DB /* aes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA2E4C320EC6F33D008625D8 /* aes.h */; };
+		DAE4D9580EE2D1DF003516DB /* testOutput.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE4D9070EE2D109003516DB /* testOutput.cpp */; };
+		DAE4D96E0EE2D29F003516DB /* input-ctr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA3E215B0EE1BF69008E67BC /* input-ctr.h */; };
+		DAE4D96F0EE2D29F003516DB /* input-ecb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE4D8630EE2CBAC003516DB /* input-ecb.h */; };
+		DAE4D9700EE2D2A6003516DB /* utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA2E4C5B0EC6F7C9008625D8 /* utils.h */; };
+		DAE4D9710EE2D2A6003516DB /* utils.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA2E4C5C0EC6F7C9008625D8 /* utils.cpp */; };
+		DAE4D9A00EE2D3D0003516DB /* testOutput.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE4D9060EE2D109003516DB /* testOutput.h */; };
+		DAE7E68E0EB7A85C008C0052 /* aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* aes.cpp */; };
+		DAE99D020EBE2E9300CBFDB8 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE99D010EBE2E9300CBFDB8 /* vector.c */; };
+		DAEF65A10ED21518000BF369 /* input-ctr.cpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA2E4CC70EC6F8D4008625D8 /* input-ctr.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAEF65A60ED21536000BF369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				DAE4D9A00EE2D3D0003516DB /* testOutput.h in CopyFiles */,
+				DAE4D9700EE2D2A6003516DB /* utils.h in CopyFiles */,
+				DAE4D9710EE2D2A6003516DB /* utils.cpp in CopyFiles */,
+				DAE4D96E0EE2D29F003516DB /* input-ctr.h in CopyFiles */,
+				DAE4D96F0EE2D29F003516DB /* input-ecb.h in CopyFiles */,
+				DAE4D9580EE2D1DF003516DB /* testOutput.cpp in CopyFiles */,
+				DAE4D8FC0EE2D09C003516DB /* Quad.h in CopyFiles */,
+				DAE4D8FD0EE2D09C003516DB /* aes256.c in CopyFiles */,
+				DAE4D8FE0EE2D09C003516DB /* aes256.h in CopyFiles */,
+				DAE4D8FF0EE2D09C003516DB /* aes.cpp in CopyFiles */,
+				DAE4D9000EE2D09C003516DB /* aes.h in CopyFiles */,
+				DAE4D86C0EE2CC49003516DB /* input-ecb.cpp in CopyFiles */,
+				DAEF65A10ED21518000BF369 /* input-ctr.cpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* aes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aes.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* FYP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FYP; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* FYP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FYP.1; sourceTree = "<group>"; };
+		DA2DA5790EBF7AEE00B17311 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		DA2E4C320EC6F33D008625D8 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		DA2E4C330EC6F33D008625D8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA2E4C5B0EC6F7C9008625D8 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		DA2E4C5C0EC6F7C9008625D8 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		DA2E4CC70EC6F8D4008625D8 /* input-ctr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "input-ctr.cpp"; sourceTree = "<group>"; };
+		DA3E215B0EE1BF69008E67BC /* input-ctr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "input-ctr.h"; sourceTree = "<group>"; };
+		DA71F2DE0EC85C2600900DD3 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		DA71F2DF0EC85C2600900DD3 /* core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = core.cpp; sourceTree = "<group>"; };
+		DA9E93470EB0FD1000A84DB3 /* aes256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes256.c; sourceTree = "<group>"; };
+		DA9E93490EB0FD1000A84DB3 /* aes256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes256.h; sourceTree = "<group>"; };
+		DAB259F80ED18CDF008E4A63 /* Quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quad.h; sourceTree = "<group>"; };
+		DAE4D8630EE2CBAC003516DB /* input-ecb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "input-ecb.h"; sourceTree = "<group>"; };
+		DAE4D8640EE2CBAC003516DB /* input-ecb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "input-ecb.cpp"; sourceTree = "<group>"; };
+		DAE4D9060EE2D109003516DB /* testOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testOutput.h; sourceTree = "<group>"; };
+		DAE4D9070EE2D109003516DB /* testOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testOutput.cpp; sourceTree = "<group>"; };
+		DAE99D010EBE2E9300CBFDB8 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* FYP */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = FYP;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4D9090EE2D111003516DB /* output */,
+				DAE4D8620EE2CB9A003516DB /* input */,
+				DA71F2D30EC85B5000900DD3 /* vector */,
+				DA2E4CD80EC6F9BC008625D8 /* aes */,
+				DA2E4C330EC6F33D008625D8 /* main.cpp */,
+				DA2E4C5B0EC6F7C9008625D8 /* utils.h */,
+				DA2E4C5C0EC6F7C9008625D8 /* utils.cpp */,
+				DA71F2DE0EC85C2600900DD3 /* core.h */,
+				DA71F2DF0EC85C2600900DD3 /* core.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* FYP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* FYP.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		DA2E4CD80EC6F9BC008625D8 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				DAB259F80ED18CDF008E4A63 /* Quad.h */,
+				DA9E93470EB0FD1000A84DB3 /* aes256.c */,
+				DA9E93490EB0FD1000A84DB3 /* aes256.h */,
+				08FB7796FE84155DC02AAC07 /* aes.cpp */,
+				DA2E4C320EC6F33D008625D8 /* aes.h */,
+			);
+			name = aes;
+			sourceTree = "<group>";
+		};
+		DA71F2D30EC85B5000900DD3 /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				DAE99D010EBE2E9300CBFDB8 /* vector.c */,
+				DA2DA5790EBF7AEE00B17311 /* vector.h */,
+			);
+			name = vector;
+			sourceTree = "<group>";
+		};
+		DAE4D8620EE2CB9A003516DB /* input */ = {
+			isa = PBXGroup;
+			children = (
+				DA3E215B0EE1BF69008E67BC /* input-ctr.h */,
+				DA2E4CC70EC6F8D4008625D8 /* input-ctr.cpp */,
+				DAE4D8630EE2CBAC003516DB /* input-ecb.h */,
+				DAE4D8640EE2CBAC003516DB /* input-ecb.cpp */,
+			);
+			name = input;
+			sourceTree = "<group>";
+		};
+		DAE4D9090EE2D111003516DB /* output */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4D9060EE2D109003516DB /* testOutput.h */,
+				DAE4D9070EE2D109003516DB /* testOutput.cpp */,
+			);
+			name = output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* FYP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FYP" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				DAEF65A60ED21536000BF369 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYP;
+			productInstallPath = "$(HOME)/bin";
+			productName = FYP;
+			productReference = 8DD76F6C0486A84900D96B5E /* FYP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FYP" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* FYP */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* FYP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E934A0EB0FD1000A84DB3 /* aes256.c in Sources */,
+				DAE7E68E0EB7A85C008C0052 /* aes.cpp in Sources */,
+				DAE99D020EBE2E9300CBFDB8 /* vector.c in Sources */,
+				DA2E4CC80EC6F8D4008625D8 /* input-ctr.cpp in Sources */,
+				DA2E4C5D0EC6F7C9008625D8 /* utils.cpp in Sources */,
+				DA71F2E00EC85C2600900DD3 /* core.cpp in Sources */,
+				DACD14DF0EC8A73A003DD22A /* main.cpp in Sources */,
+				DAE4D8650EE2CBAC003516DB /* input-ecb.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = FYP;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = FYP;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ENABLE_OPENMP_SUPPORT = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/opt/local/include/boost-1_35";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				ENABLE_OPENMP_SUPPORT = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/opt/local/include/boost-1_35";
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
